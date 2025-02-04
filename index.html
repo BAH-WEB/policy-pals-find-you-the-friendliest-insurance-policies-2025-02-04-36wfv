@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policy Pals - Find Your Friendly Insurance Policy</title>
+    <meta name="description" content="Discover your ideal insurance policy with PolicyPals.co.uk. We offer personalized policy matching and transparent comparisons in a friendly community.">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased">
+    <!-- Header -->
+    <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 z-50">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="flex items-center space-x-2">
+                    <span class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">PolicyPals</span>
+                </a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
+                    <a href="https://www.PolicyPals.Co.Uk" class="px-6 py-2 rounded-full bg-gradient-to-r from-blue-500 to-teal-400 text-white font-medium hover:shadow-lg hover:scale-105 transform transition duration-300">Get Started</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-blue-900/20 to-gray-900"></div>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
+                    Policy Pals Find You The Friendliest Insurance Policies
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
+                    Discover Your Ideal Policy with PolicyPals.co.uk, Your Friendly Pals in Navigating the World of Insurance!
+                </p>
+                <a href="https://www.PolicyPals.Co.Uk" class="inline-block px-8 py-4 text-lg font-semibold rounded-full bg-gradient-to-r from-blue-500 to-teal-400 text-white hover:shadow-xl hover:scale-105 transform transition duration-300">
+                    Find Your Perfect Policy
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 bg-gray-800/50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
+                Why Choose PolicyPals?
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Feature 1 -->
+                <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transform transition duration-300 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Personalised Policy Matching</h3>
+                    <p class="text-gray-400">Tailored insurance solutions that perfectly match your unique requirements and preferences.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transform transition duration-300 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Transparent Comparisons</h3>
+                    <p class="text-gray-400">Interactive side-by-side policy comparisons to help you make informed decisions.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transform transition duration-300 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Community Support</h3>
+                    <p class="text-gray-400">Join our friendly community to share experiences and get advice from fellow policyholders.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
+                Frequently Asked Questions
+            </h2>
+            <div class="max-w-3xl mx-auto space-y-6" x-data="{selected:null}">
+                <!-- FAQ Item 1 -->
+                <div class="bg-gray-800 rounded-xl">
+                    <button class="w-full px-8 py-6 text-left" @click="selected !== 1 ? selected = 1 : selected = null">
+                        <div class="flex items-center justify-between">
+                            <span class="font-semibold">How does PolicyPals work?</span>
+                            <span class="transform transition-transform duration-300" :class="{'rotate-180': selected === 1}">↓</span>
+                        </div>
+                    </button>
+                    <div class="px-8 py-6 bg-gray-800/50 rounded-b-xl" x-show="selected === 1" x-collapse>
+                        <p class="text-gray-400">We analyze your needs and preferences to match you with the most suitable insurance policies from our trusted partners.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-gray-800 rounded-xl">
+                    <button class="w-full px-8 py-6 text-left" @click="selected !== 2 ? selected = 2 : selected = null">
+                        <div class="flex items-center justify-between">
+                            <span class="font-semibold">Is the service free to use?</span>
+                            <span class="transform transition-transform duration-300" :class="{'rotate-180': selected === 2}">↓</span>
+                        </div>
+                    </button>
+                    <div class="px-8 py-6 bg-gray-800/50 rounded-b-xl" x-show="selected === 2" x-collapse>
+                        <p class="text-gray-400">Yes, our policy comparison and matching service is completely free for all users.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 bg-gradient-to-r from-blue-900 to-gray-900">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Find Your Perfect Policy?</h2>
+            <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">Join thousands of satisfied customers who've found their ideal insurance coverage through PolicyPals.</p>
+            <a href="https://www.PolicyPals.Co.Uk" class="inline-block px-8 py-4 text-lg font-semibold rounded-full bg-gradient-to-r from-blue-500 to-teal-400 text-white hover:shadow-xl hover:scale-105 transform transition duration-300">
+                Get Started Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">PolicyPals</h3>
+                    <p class="text-gray-400">Your friendly guide in the world of insurance.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <p class="text-gray-400">support@policypals.co.uk</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 PolicyPals. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
